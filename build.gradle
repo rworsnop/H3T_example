@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies {
-    compile group: 'h3t', name: 'h3t', version: '1.0.0-SNAPSHOT'
+    compile group: 'h3t', name: 'h3t', version: '+'
     runtime group: 'cglib', name: 'cglib', version:'2.2.2'
     runtime group: 'org.aspectj', name: 'aspectjrt', version:'1.7.0'
     compile group: 'org.hibernate', name: 'hibernate-core', version:'4.1.7.Final'
