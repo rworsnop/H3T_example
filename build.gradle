@@ -1,0 +1,25 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'maven'
+
+group = 'h3t'
+version = '1.0.0-SNAPSHOT'
+
+description = """H3T_example"""
+
+sourceCompatibility = 1.5
+targetCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    compile group: 'h3t', name: 'h3t', version: '1.0.0-SNAPSHOT'
+    runtime group: 'cglib', name: 'cglib', version:'2.2.2'
+    runtime group: 'org.aspectj', name: 'aspectjrt', version:'1.7.0'
+    compile group: 'org.hibernate', name: 'hibernate-core', version:'4.1.7.Final'
+}
+
